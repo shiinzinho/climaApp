@@ -26,6 +26,11 @@ function App(): React.JSX.Element {
 }
 const styles = StyleSheet.create({
   bottomImage: {
+    width: '115%',
+    position: 'absolute',
+    bottom: 0,
+    resizeMode: 'cover',
+    height: '57%'
 
   },
   header: {
@@ -55,7 +60,6 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end',
     marginBottom: 20,
     color: '#fff'
-
   },
   temperature: {
     fontSize: 55,
