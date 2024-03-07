@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   city: {
     fontWeight: 'bold',
-    color: '#fff',
+    color: '#1e1e1e',
     fontSize: 25
   },
   weatherIcon: {
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignSelf: 'flex-end',
     marginBottom: 20,
-    color: '#fff'
+    color: '#1e1e1e'
   },
   temperature: {
     fontSize: 55,
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 17,
-    color: '#FFFFFF',
+    color: '#1e1e1e',
     marginBottom: 10,
     fontStyle: 'italic',
   }
